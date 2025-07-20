@@ -173,7 +173,7 @@ main {
 .features-section {
   width: 100%;
   text-align: center;
-  background-color: var(--Gray50);
+  background-color: var(--Gray100);
   padding: 4em 1.4em;
 }
 
@@ -198,6 +198,61 @@ main {
 .feature-text {
   color: var(--Gray600);
   margin-bottom: 2em;
+}
+
+/* ... */
+
+/* || Article Section */
+
+.articles-section {
+  width: 100%;
+  padding: 4em 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--Gray50);
+}
+
+.article-header {
+  text-align: center;
+  color: var(--Blue950);
+  font-size: 1.9em;
+  font-weight: lighter;
+  margin-bottom: 2em;
+}
+
+.article-container {
+  width: 100%;
+  border-radius: 0.5em;
+  overflow: hidden;
+  background-color: var(--White);
+  margin-bottom: 1em;
+}
+
+.article-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.3em;
+}
+
+.article-text-container {
+  padding: 1.5em;
+  background-color: var(--White);
+}
+
+figcaption {
+  color: var(--Gray600);
+  margin-bottom: 0.5em;
+  font-size: 0.8em;
+}
+
+.latest-p-bold {
+  color: var(--Blue950);
+  margin-bottom: 0.5em;
+}
+
+.latest-p-normal {
+  color: var(--Gray600);
 }
 
 /* ... */
