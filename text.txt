@@ -74,3 +74,12 @@
   Request Invite
 
   © Digitalbank. All Rights Reserved
+
+
+
+
+  
+  background-image: linear-gradient(
+    hsla(233, 26%, 24%, 0.705),
+    hsla(233, 26%, 24%, 0)
+  );
