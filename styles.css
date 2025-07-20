@@ -50,7 +50,7 @@ main {
     hsla(233, 26%, 24%, 0)
   );
   width: 100%;
-  height: 24em;
+  height: 30em;
   position: absolute;
   top: 4.21em;
   left: 0;
@@ -131,6 +131,73 @@ main {
   position: absolute;
   top: -7.8em;
   left: 1em;
+}
+
+.hero-text-section {
+  width: 100%;
+  padding: 0 1.4em;
+  text-align: center;
+}
+
+.hero-text-title {
+  font-size: 2.4em;
+  font-weight: lighter;
+  color: var(--Blue950);
+  margin-bottom: 1em;
+}
+
+.hero-text-content {
+  font-weight: 0.8em;
+  color: var(--Gray600);
+  margin-bottom: 1.4em;
+}
+
+.hero-text-btn {
+  width: 11em;
+  padding: 0.8em 1em;
+  border-radius: 3em;
+  border: none;
+  color: var(--White);
+  background-image: linear-gradient(
+    9deg,
+    hsl(192, 69%, 51%),
+    hsl(136, 64%, 51%)
+  );
+  margin-bottom: 3em;
+}
+
+/* ... */
+
+/* || Feature Sections */
+
+.features-section {
+  width: 100%;
+  text-align: center;
+  background-color: var(--Gray50);
+  padding: 4em 1.4em;
+}
+
+.features-article {
+  margin-bottom: 1em;
+}
+
+.feature-title-head {
+  color: var(--Blue950);
+  font-size: 1.9em;
+  font-weight: lighter;
+  margin-bottom: 1em;
+}
+
+.feature-title {
+  color: var(--Blue950);
+  font-size: 1.5em;
+  font-weight: lighter;
+  margin-bottom: 1em;
+}
+
+.feature-text {
+  color: var(--Gray600);
+  margin-bottom: 2em;
 }
 
 /* ... */
