@@ -46,7 +46,7 @@ main {
 .mobile-nav-container {
   position: relative;
   background-image: linear-gradient(
-    hsla(233, 26%, 24%, 0.705),
+    hsla(233, 30%, 17%, 0.705),
     hsla(233, 26%, 24%, 0)
   );
   width: 100%;
@@ -164,6 +164,15 @@ main {
     hsl(136, 64%, 51%)
   );
   margin-bottom: 3em;
+  cursor: pointer;
+}
+
+.hero-text-btn:hover {
+  background-image: linear-gradient(
+    9deg,
+    hsla(192, 69%, 51%, 75%),
+    hsla(136, 64%, 51%, 75%)
+  );
 }
 
 /* ... */
@@ -226,7 +235,7 @@ main {
   border-radius: 0.5em;
   overflow: hidden;
   background-color: var(--White);
-  margin-bottom: 1em;
+  margin-bottom: 1.4em;
 }
 
 .article-image {
@@ -256,3 +265,79 @@ figcaption {
 }
 
 /* ... */
+
+/* || Footer Section */
+
+footer {
+  width: 100%;
+  background-color: var(--Blue950);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5em 0;
+}
+
+.footer-logo-dark {
+  margin-bottom: 1.5em;
+}
+
+.socials-container {
+  margin-bottom: 1.5em;
+}
+
+.socials-container img {
+  margin-right: 1em;
+}
+
+.socials-container img:last-child {
+  margin-right: 0;
+}
+
+.footer-nav-list {
+  list-style: none;
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+.footer-nav-list li {
+  margin-bottom: 1em;
+}
+
+.footer-list-item {
+  text-decoration: none;
+  color: var(--Gray100);
+  transition: color 0.2s ease-in-out;
+}
+
+.footer-list-item:hover {
+  color: var(--Green500);
+}
+
+.footer-btn {
+  width: 11em;
+  padding: 0.8em 1em;
+  border-radius: 3em;
+  border: none;
+  color: var(--White);
+  background-image: linear-gradient(
+    9deg,
+    hsl(192, 69%, 51%),
+    hsl(136, 64%, 51%)
+  );
+  margin-bottom: 3em;
+}
+
+.footer-btn:hover {
+  background-image: linear-gradient(
+    9deg,
+    hsla(192, 69%, 51%, 75%),
+    hsla(136, 64%, 51%, 75%)
+  );
+}
+
+.copyright {
+  color: var(--Gray600);
+}
+
+/* .. */
