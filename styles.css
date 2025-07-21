@@ -125,6 +125,10 @@ main {
   position: absolute;
 }
 
+.hero-img-1-desktop {
+  display: none;
+}
+
 .hero-img-2 {
   width: 22em;
   height: auto;
@@ -341,3 +345,29 @@ footer {
 }
 
 /* .. */
+
+/* || Tablet View */
+
+@media screen and (min-width: 51.25em) {
+  .hero-img-1 {
+    display: none;
+  }
+
+  .hero-img-1-desktop {
+    display: block;
+    position: absolute;
+    width: 70%;
+    right: -7em;
+    top: -8em;
+  }
+
+  .hero-img-2 {
+    width: 22em;
+    height: auto;
+    position: absolute;
+    top: -7.8em;
+    left: 27em;
+  }
+}
+
+/* ... */
