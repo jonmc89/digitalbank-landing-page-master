@@ -29,11 +29,11 @@ Users should be able to:
 
 - Tablet View
 
-![](./images/Tablet%20View.jpeg)
+![](./images/Tablet%20View.png)
 
 - Mobile View
 
-![](./images/Mobile%20View.jpeg)
+![](./images/Mobile%20View.png)
 
 ### Links
 
